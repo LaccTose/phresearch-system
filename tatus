@@ -1,0 +1,67 @@
+* [33mb3d686ab[m[33m ([m[1;31morigin/HEAD[m[33m, [m[1;31morigin/12.x[m[33m, [m[1;32m12.x[m[33m)[m Update CHANGELOG
+* [33m9905b67c[m[33m ([m[1;36mHEAD[m[33m, [m[1;33mtag: [m[1;33mv12.4.0[m[33m)[m [12.x] Add default Redis retry configuration (#6666)
+* [33m5b585a22[m deferred option
+* [33m08ab2598[m Update CHANGELOG
+* [33m4aeb5602[m[33m ([m[1;33mtag: [m[1;33mv12.3.1[m[33m)[m revert (#6662)
+* [33md9d44941[m Use application name from configuration (#6655)
+* [33m84501124[m Making sure all related processed are closed when terminating the currently command (#6654)
+* [33m730d9b5e[m Bump Pint version (#6653)
+* [33m8d8d3b72[m Update CHANGELOG
+* [33ma4d121f5[m[33m ([m[1;33mtag: [m[1;33mv12.3.0[m[33m)[m Change composer post-autoload-dump script to Artisan command (#6647)
+* [33m902200e7[m Revert "fix" (#6646)
+* [33mefc90e28[m Fix Critical Security Vulnerability in form-data Dependency (#6645)
+* [33m85481fe4[m Update CHANGELOG
+* [33m624fb58a[m[33m ([m[1;33mtag: [m[1;33mv12.2.0[m[33m)[m Add Vite 7 support (#6639)
+* [33ma52070f6[m Update CHANGELOG
+* [33m4ab12157[m[33m ([m[1;33mtag: [m[1;33mv12.1.0[m[33m)[m [12.x] Fix type casting for environment variables in config files (#6637)
+* [33mdd473ead[m fix
+* [33m9a177b07[m Change to hyphenate prefixes and cookie names (#6636)
+* [33m96164d15[m Reorder environment variables in phpunit.xml for logical grouping (#6634)
+* [33m57b467f1[m disable nightwatch in testing (#6632)
+* [33mf7992fab[m Update CHANGELOG
+* [33m78600b89[m[33m ([m[1;33mtag: [m[1;33mv12.0.11[m[33m)[m Update CHANGELOG
+* [33m26ea0b69[m[33m ([m[1;33mtag: [m[1;33mv12.0.10[m[33m)[m [12.x] Fix: Add void return type to withMiddleware and withExceptions to satisfy Rector analysis (#6628)
+* [33m2f8a5bf1[m Reduce redundancy and keeps the .gitignore file cleaner (#6629)
+* [33mcd854afd[m fix alphabetical order (#6627)
+* [33m047ed5ad[m Update CHANGELOG
+* [33m66578278[m[33m ([m[1;33mtag: [m[1;33mv12.0.9[m[33m)[m Enhance .gitignore to exclude common OS and log files (#6619)
+* [33m1c027454[m Minor language update (#6615)
+* [33m3731b09a[m Add JSON Schema to package.json (#6613)
+* [33m468d9458[m remove apc (#6611)
+* [33m07641526[m Update CHANGELOG
+* [33m2d8f5620[m[33m ([m[1;33mtag: [m[1;33mv12.0.8[m[33m)[m remove apc
+* [33mf6e4638e[m Clean up URL formatting in README (#6601)
+* [33m126a6638[m Update CHANGELOG
+* [33me654bf36[m[33m ([m[1;33mtag: [m[1;33mv12.0.7[m[33m)[m Premium partner changes (#6599)
+* [33m43ad1946[m Add `composer run test` command (#6598)
+* [33mfc42b713[m Update CHANGELOG
+* [33m7a701553[m[33m ([m[1;33mtag: [m[1;33mv12.0.6[m[33m)[m use in memory database by default
+* [33m14cec1e9[m Update CHANGELOG
+* [33m6087e4fd[m[33m ([m[1;33mtag: [m[1;33mv12.0.5[m[33m)[m [12.x] Update `config/mail.php` to match the latest core configuration (#6594)
+* [33mf1391517[m Update CHANGELOG
+* [33mf308c84b[m[33m ([m[1;33mtag: [m[1;33mv12.0.4[m[33m)[m Bump vite from 6.2.3 to 6.2.4 (#6590)
+* [33m4d9e70e4[m Bump vite from 6.0.11 to 6.2.3 - Vulnerability patch (#6586)
+* [33m979202df[m Update CHANGELOG
+* [33m4d6a75b0[m[33m ([m[1;33mtag: [m[1;33mv12.0.3[m[33m)[m [12.x] Remove Unnecessarily @source (#6584)
+* [33m8402e5b6[m Bump axios from 1.7.9 to 1.8.2 (#6572)
+* [33m3549033a[m [12.x] Refactor: Structural improvement for clarity (#6574)
+* [33m7d1dcad7[m Improves clarity in app.css file (#6569)
+* [33mc1f2608e[m Remove reverted change from CHANGELOG.md (#6565)
+* [33m27348b7c[m remove change for now
+* [33m661e5699[m Update CHANGELOG
+* [33m13906723[m[33m ([m[1;33mtag: [m[1;33mv12.0.2[m[33m)[m feat: add type hints for $this in routes/console.php (#6559)
+* [33m540728ed[m Switch to `php artisan test` to make it work out of the box (#6555)
+* [33mbd44e4a0[m Update CHANGELOG
+* [33mc7e8fc4f[m[33m ([m[1;33mtag: [m[1;33mv12.0.1[m[33m)[m [12.x] prefer stable stability (#6548)
+* [33mfd518907[m[33m ([m[1;33mtag: [m[1;33mv12.0.0[m[33m)[m Apply fixes from StyleCI
+* [33m1b8506b0[m update fonts
+* [33mab101086[m Adding new laravel welcome (#6546)
+*   [33m2a19af7a[m[33m ([m[1;31morigin/master[m[33m)[m Merge branch '11.x'
+[32m|[m[33m\[m  
+[32m|[m * [33mecf6de49[m[33m ([m[1;31morigin/11.x[m[33m)[m Don't set CACHE_PREFIX to empty string by default (#6542)
+* [33m|[m [33m29037b32[m Merge branch '11.x'
+[34m|[m[33m\[m[33m|[m 
+[34m|[m * [33m79a94de4[m remove `APP_TIMEZONE` environment variable (#6536)
+[34m|[m * [33m6f1ebe26[m chore: Update `update-changelog.yml`
+[34m|[m * [33m55738c0c[m add REDIS_PERSISTENT env var
+[34m|[m * [33ma8b5e075[m chore: update changelog CI permission
