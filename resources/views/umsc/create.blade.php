@@ -8,6 +8,7 @@
     <title>ระบบบันทึกข้อมูลรายงานการบริการ</title>
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
+    
 </head>
 
 <body class="bg-green-50">
@@ -16,6 +17,8 @@
         <form action="{{ route('umsc.store') }}" method="POST" id="umscForm" class="bg-white p-6 rounded-2xl shadow-lg">
             @csrf
 
+            <a href="{{ route('umsc.index') }}">กลับหน้าหลัก</a>
+            
             <!--หัวข้อระบบ-->
             <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold text-green-800 mb-4 text-center">
                 ระบบบันทึกข้อมูลรายงานการให้บริการ</h1>
@@ -62,7 +65,7 @@
                             @endforeach
                         </select>
                     </div>
-                    
+
                     <!--ปีพ.ศ.-->
                     <div>
                         <label for="year" class="block text-gray-700 mb-1">ปี (พ.ศ.) <span
@@ -426,7 +429,7 @@
                             class="w-full p-2 border border-gray-300 rounded-md">
                     </div>
                     <div>
-                        <label for="reporterPhone" class="block text-gray-700 mb-1">เบอร์โทรศัพท์ <span
+                        <label for="reporterPhone" class="block text-gray-700 mb-1">เบอร์โทรศัพท์<span
                                 class="text-red-500">*</span></label>
                         <input type="tel" id="reporterPhone" name="reporterPhone" required
                             class="w-full p-2 border border-gray-300 rounded-md" maxlength="10">
@@ -434,7 +437,7 @@
                 </div>
             </fieldset>
 
-            <button type="submit" 
+            <button type="submit"
                 class="bg-green-700 text-white px-6 py-3 rounded-lg hover:bg-green-800 transition ml-4">
                 บันทึกข้อมูล
             </button>
